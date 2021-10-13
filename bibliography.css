@@ -1,0 +1,15 @@
+#bibliographyTitle{
+    font-family: 'Passion One', cursive;
+    color: white;
+    font-size: 30pt;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #204447;
+}
+
+p{
+    font-size: 12pt;
+}
+
+li{
+    font-size: 15pt;
+}

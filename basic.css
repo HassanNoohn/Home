@@ -1,0 +1,120 @@
+body{
+    background-color: #d2f081;
+}
+
+img{
+    width: 73px;
+}
+
+#top{
+    position: relative;
+    top: 80px;
+    left: 80px;
+    margin-right: 100px; /*made both the top section and the content section fit on the width of the screen without needing to scroll sideways*/
+    font-family: Verdana, Fantasy;
+    color: white;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+
+#title{
+    font-family: 'Passion One', cursive;
+    color: white;
+    font-size: 52pt;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #204447;
+    -webkit-transform:scale(1.2,1); /*stretches text*/
+}
+
+#publisherInfo{
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color: black;
+}
+
+#content{
+    position: relative;
+    left: 700px;
+    top: -108px;
+    background: white;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.boxes:hover{
+    box-shadow: 0 0 11px rgba(1,1,1,.2); 
+}
+
+#firstVirus{
+    position:relative;
+    left: 430px;
+    top:-90px;
+}
+
+#secondVirus{
+    position:relative;
+    left: -500px;
+    top:30px;
+}
+
+
+#thirdVirus{
+    position: relative;
+    left: 550px;
+    top: -20px;
+}    
+
+#fourthVirus{
+    position: relative;
+    left: -500px;
+    top: -150px;
+}    
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Heebo', sans-serif;
+    color: #204447;
+}
+
+.para{
+  text-align: center;
+  background: white;
+  padding: 20px;
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+    
+hr{
+    width:1200px;
+    margin: auto;
+    height:1px; 
+}
+
+#sideEffects{
+    display:table;
+    margin:0 auto;
+}
+
+#bibliography{
+    margin-left: 90px;
+    font-size: 20pt;
+}
