@@ -22,8 +22,8 @@ img{
     font-family: 'Passion One', cursive;
     color: white;
     font-size: 52pt;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #204447;
+    -webkit-text-stroke-width: 2px; /*creates outline for text*/
+    -webkit-text-stroke-color: #204447; /*chooses outline colour*/
     -webkit-transform:scale(1.2,1); /*stretches text*/
 }
 
@@ -52,7 +52,7 @@ img{
     border-color: black;
 }
 
-.boxes:hover{
+.boxes:hover{ 
     box-shadow: 0 0 11px rgba(1,1,1,.2); 
 }
 
@@ -91,16 +91,16 @@ h2{
 }
 
 .para{
-  text-align: center;
-  background: white;
-  padding: 20px;
-  width: 1200px;
-  height: 300px;
-  margin: auto;
-  margin-bottom: 50px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
     
 hr{
